@@ -3,8 +3,8 @@
 
 $CookieName  = "Wiki";          # Name for this wiki (for multi-wiki sites)
 $SiteName    = "Wiki";          # Name of site (used for titles)
-$HomePage    = "HomePage";      # Home page (change space to _)
-$RCName      = "RecentChanges"; # Name of changes page (change space to _)
+$HomePage    = "Home_Page";      # Home page (change space to _)
+$RCName      = "Recent_Changes"; # Name of changes page (change space to _)
 $LogoUrl     = "/wiki.gif";     # URL for site logo ("" for no logo)
 $ENV{PATH}   = "/usr/bin/";     # Path used to find "diff"
 $ScriptTZ    = "";              # Local time zone ("" means do not print)
@@ -33,8 +33,8 @@ $EarlyRules  = '';              # Local syntax rules for wiki->html (evaled)
 $LateRules   = '';              # Local syntax rules for wiki->html (evaled)
 $KeepSize    = 0;               # If non-zero, maximum size of keep file
 $BGColor     = 'white';         # Background color ('' to disable)
-$DiffColor1  = '#ffffaf';       # Background color of old/deleted text
-$DiffColor2  = '#cfffcf';       # Background color of new/added text
+$DiffColor1  = '#fea3aa';       # Background color of old/deleted text
+$DiffColor2  = '#baed91';       # Background color of new/added text
 $FavIcon     = '';              # URL of bookmark/favorites icon, or ''
 $RssDays     = 7;               # Default number of days in RSS feed
 $UserHeader  = '';              # Optional HTML header additional content
