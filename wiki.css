@@ -3,38 +3,34 @@ body {
 }
 
 div.wikitext {
-  background-color: #ccc;
+  background-color: #eee;
+  border: 1px solid #bbb;
   padding-left: 5px;
   padding-top: 5px;
   border-radius: 5px;
 }
 div.wikipreview {
-  background-color: lightblue;
   border-radius: 5px;
 }
 div.wikiheader {
-  background-color: lightpink;
   padding-left: 5px;
   border-radius: 5px;
 }
 div.wikirc {
-  background-color: lightblue;
   border-radius: 5px;
 }
 div.wikifooter {
-  background-color: lightpink;
   border-radius: 5px;
 }
 div.wikipref {
-  background-color: orange;
   border-radius: 5px;
 }
 
 hr.wikilinefooter {
-  height: 0px;
+  border: 0;
 }
 hr.wikilineheader {
-  height: 0px;
+  border: 0;
 }
 hr.wikiline {
   height: 2px;
@@ -52,12 +48,12 @@ a:link {
 a:hover {
   text-decoration: none;
 }
-div.wikiheader a.wikipagelink, a[href="wiki.pl?action=editprefs"], a[href="wiki.pl?back=UseModWiki"] {
+div.wikiheader a.wikipagelink, a[href="wiki.pl?action=editprefs"], a[href="wiki.pl?back=UseModWiki"], form[method="post"] a:link {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: black;
 }
-div.wikiheader a.wikipagelink:visited, a[href="wiki.pl?action=editprefs"]:visited, a[href="wiki.pl?back=UseModWiki"]:visited {
+div.wikiheader a.wikipagelink:visited, a[href="wiki.pl?action=editprefs"]:visited, a[href="wiki.pl?back=UseModWiki"]:visited, form[method="post"] a:visited {
   color: black;
 }
 
