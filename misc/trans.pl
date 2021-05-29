@@ -515,9 +515,9 @@ Confirm deletion of %s by following this link:
 
 Confirm Delete
 
-%s can not be deleted.
+%s cannot be deleted.
 
-%s can not be deleted because it is locked.
+%s cannot be deleted because it is locked.
 
 %s has been deleted.
 
@@ -529,7 +529,7 @@ Change the %s variable to increase this limit.
 
 File to Upload:
 
-Upload Finished
+Upload Complete
 
 The wiki link to your file is:
 
