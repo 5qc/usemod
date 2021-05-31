@@ -1,4 +1,3 @@
-
 Users which contributed patches added to versions after 1.0:
 
 * BrianHunter
@@ -19,5 +18,5 @@ Users which contributed patches added to versions after 1.0:
 * UngarPeter
 
 If I've forgotten someone, please leave a note on UseMod:MarkusLude or
-send mail to usemod@usemod.com.
+send mail to [usemod@usemod.com](mailto:usemod@usemod.com).
 
